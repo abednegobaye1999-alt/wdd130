@@ -24,3 +24,10 @@ img {
 p {
     padding: 10px;
 }
+
+div {
+    width: 400px;
+    margin: 10px;
+    border: 1px solid #000000;
+    padding: 15px;
+}
