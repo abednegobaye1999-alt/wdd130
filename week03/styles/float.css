@@ -20,6 +20,7 @@ p {
 footer {
     border-top: 1px solid #555;
     padding-top: 5px;
+    clear: both;
     /* Uncomment the declaration below and observe the results. */
 
     /* clear: both; */
