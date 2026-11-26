@@ -40,24 +40,39 @@ nav, p, section, article {
   text-decoration: none;
 }
 
+.hero {
+  position: relative;
+}
+
 .hero img {
   display: block;
   width: 100%;
   height: auto;
 }
 
-h1 {
+.hero h1 {
   position: absolute;
   top: 20px;
   width: 100%;
   padding: 16px;
   text-align: center;
-  opacity: 0.9;
+  opacity: 0.85;
   background-color: var(--accent1-color);
-  color: #fff; /* white text, make sure it has good contrast with the background-color */
+  color: #ffffff;
 }
 
-.rafting-hero article {
+.hero article {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  padding: 16px;
+  opacity: 0.9;
+  background-color: var(--accent2-color);
+}
+
+.hero article img {
   float: right;
-  width: 125%;
+  width: 125px;
+  margin-left: 16px;
 }
