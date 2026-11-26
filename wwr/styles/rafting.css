@@ -57,3 +57,8 @@ h1 {
   background-color: var(--accent1-color);
   color: #fff; /* white text, make sure it has good contrast with the background-color */
 }
+
+.hero article {
+  float: right;
+  width: 125%;
+}
